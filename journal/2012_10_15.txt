@@ -1,0 +1,16 @@
+First NeurOCaml journal entry
+
+I've been studying ocaml and trying to do small projects for the past year or so, on and off, after reading Steve Yegge's blog posts about it.  After running into code bloat with my matlab data analysis library, and after several rounds of license expirations and warnings about the future releases not supporting 32-bit linux, I became more and more convinced that I should give ocaml a serious try.
+
+I really don't know what I'm doing in ocaml yet though.  My programming experience is mostly in matlab, c, and c++.  I've hacked together lots of things in matlab.  My c/c++ is a little neater and nicer, but I'm definitely not an expert at keeping code organized for large projects.  It's not right to say that I've 'outgrown' either matlab, c, or c++, because I know there are a lot of features of all these languages that I don't know, which address some of the pain points I have while writing the code I need to write.
+
+But I have gotten enough of a taste of ocaml to know that it 'feels' like the right language to me.  And I want to invest myself in this language, instead of pumping more effort into matlab code.  Ocaml the platform is also a much closer fit to my open-source political leanings.  Aesthetically the code in much more pleasing.  And (having no lisp experience) the novelty of functional programming is very strong.
+
+Yaron Minsky's videos about the type system also compelled me to transition my code (and my thinking) to the ocaml style.  My little experience with ADT's has left me feeling very naked without them in c/c++.  And of course I'm left with a feeling of deep emptiness when I consider the type system of matlab.  (though I shouldn't forget to mention - little functional surprises like working closures in that language sometimes give me back a little bit of the warm Matlab feeling I once had).
+
+
+So, on goal of this project is for me to familiarize myself with the day-to-day experience of getting jobs done with ocaml - learning be compitant building real things with it.
+
+The other goal, of course, is to supplant my use of MATLAB altogether.  I'm very nervous about this goal, because of the matlab lifestyle I've grown accustomed to.  It remains to be seen, how I will work in an environment like ocaml, for exploratory data analysis.  
+
+Very new to ocaml.  Absolutely any comments about direction are greatly appreciated.
