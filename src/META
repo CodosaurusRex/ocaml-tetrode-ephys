@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: 13c3d3e265f49187688c230674db6604)
+version = "0.1"
+description =
+"Modules for representing and manipulating extracellular neural recording data."
+archive(byte) = "tetrode-ephys.cma"
+archive(byte, plugin) = "tetrode-ephys.cma"
+archive(native) = "tetrode-ephys.cmxa"
+archive(native, plugin) = "tetrode-ephys.cmxs"
+exists_if = "tetrode-ephys.cma"
+# OASIS_STOP
+
