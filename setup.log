@@ -1,0 +1,8 @@
+"is_built_lib_tetrode_ephys" "true"
+"built_lib_tetrode_ephys" "/home/greghale/Programming/ocaml/ocaml-tetrode-ephys/_build/src/tetrode_ephys.cma"
+"built_lib_tetrode_ephys" "/home/greghale/Programming/ocaml/ocaml-tetrode-ephys/_build/src/tetrode_ephys.cmxa"
+"built_lib_tetrode_ephys" "/home/greghale/Programming/ocaml/ocaml-tetrode-ephys/_build/src/tetrode_ephys.a"
+"built_lib_tetrode_ephys" "/home/greghale/Programming/ocaml/ocaml-tetrode-ephys/_build/src/tetrode_ephys.cmxs"
+"built_lib_tetrode_ephys" "/home/greghale/Programming/ocaml/ocaml-tetrode-ephys/_build/src/Spiketrain.cmi"
+"built_lib_tetrode_ephys" "/home/greghale/Programming/ocaml/ocaml-tetrode-ephys/_build/src/Spiketrain.cmx"
+"install-findlib" "tetrode_ephys"

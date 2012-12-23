@@ -1,0 +1,24 @@
+### Starting build.
+# Target: src/Spiketrain.mli.depends, tags: { debug, extension:mli, file:src/Spiketrain.mli, ocaml, ocamldep, pkg_circstat, pkg_yojson, quiet, traverse }
+ocamlfind ocamldep -package yojson -package circstat -modules src/Spiketrain.mli > src/Spiketrain.mli.depends # cached
+# Target: src/Spiketrain.cmi, tags: { byte, compile, debug, extension:mli, file:src/Spiketrain.mli, interf, ocaml, pkg_circstat, pkg_yojson, quiet, traverse }
+ocamlfind ocamlc -c -g -package yojson -package circstat -I src -o src/Spiketrain.cmi src/Spiketrain.mli # cached
+# Target: src/Spiketrain.ml.depends, tags: { debug, extension:ml, file:src/Spiketrain.ml, ocaml, ocamldep, pkg_circstat, pkg_yojson, quiet, traverse }
+ocamlfind ocamldep -package yojson -package circstat -modules src/Spiketrain.ml > src/Spiketrain.ml.depends
+# Target: src/Spiketrain.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/Spiketrain.cmo, file:src/Spiketrain.ml, implem, ocaml, pkg_circstat, pkg_yojson, quiet, traverse }
+ocamlfind ocamlc -c -g -package yojson -package circstat -I src -o src/Spiketrain.cmo src/Spiketrain.ml
++ ocamlfind ocamlc -c -g -package yojson -package circstat -I src -o src/Spiketrain.cmo src/Spiketrain.ml
+File "src/Spiketrain.ml", line 15, characters 6-13:
+Warning 26: unused variable t_label.
+# Target: src/tetrode_ephys.cma, tags: { byte, debug, extension:cma, file:src/tetrode_ephys.cma, library, link, ocaml, quiet, traverse }
+ocamlfind ocamlc -a src/Spiketrain.cmo -o src/tetrode_ephys.cma
+# Target: src/Spiketrain.cmx, tags: { compile, debug, extension:cmx, extension:ml, file:src/Spiketrain.cmx, file:src/Spiketrain.ml, implem, native, ocaml, pkg_circstat, pkg_yojson, quiet, traverse }
+ocamlfind ocamlopt -c -g -package yojson -package circstat -I src -o src/Spiketrain.cmx src/Spiketrain.ml
++ ocamlfind ocamlopt -c -g -package yojson -package circstat -I src -o src/Spiketrain.cmx src/Spiketrain.ml
+File "src/Spiketrain.ml", line 15, characters 6-13:
+Warning 26: unused variable t_label.
+# Target: src/tetrode_ephys.cmxa, tags: { debug, extension:cmxa, file:src/tetrode_ephys.cmxa, library, link, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -a src/Spiketrain.cmx -o src/tetrode_ephys.cmxa
+# Target: src/tetrode_ephys.cmxs, tags: { debug, extension:cmxs, file:src/tetrode_ephys.cmxs, library, link, linkall, native, ocaml, quiet, shared, traverse, use_tetrode_ephys }
+ocamlfind ocamlopt -shared -linkall src/tetrode_ephys.cmxa -o src/tetrode_ephys.cmxs
+# Compilation successful.

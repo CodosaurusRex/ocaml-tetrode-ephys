@@ -1,14 +1,15 @@
 OASISFormat: 0.3
 Name:        tetrode-ephys
 Version:     0.1
-Synopsis:    Modules for representing and manipulating extracellular neural
-  recording data.
+Synopsis:    Analyzing extracellular neural recording data.
 Authors:     Greg Hale
 License:     LGPL-2.1 with OCaml linking exception
 Plugins:     META (0.3)
 
-Library "tetrode-ephys"
+BuildTools: ocamlbuild, ocamldoc
+
+Library tetrode_ephys
   Path:       src
   BuildTools: ocamlbuild
   Modules:    Spiketrain
-  
+  BuildDepends: yojson, circstat

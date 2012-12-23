@@ -1,12 +1,12 @@
 # OASIS_START
-# DO NOT EDIT (digest: 13c3d3e265f49187688c230674db6604)
+# DO NOT EDIT (digest: f2563f1c2203010819eb322a10851440)
 version = "0.1"
-description =
-"Modules for representing and manipulating extracellular neural recording data."
-archive(byte) = "tetrode-ephys.cma"
-archive(byte, plugin) = "tetrode-ephys.cma"
-archive(native) = "tetrode-ephys.cmxa"
-archive(native, plugin) = "tetrode-ephys.cmxs"
-exists_if = "tetrode-ephys.cma"
+description = "Analyzing extracellular neural recording data."
+requires = "yojson circstat"
+archive(byte) = "tetrode_ephys.cma"
+archive(byte, plugin) = "tetrode_ephys.cma"
+archive(native) = "tetrode_ephys.cmxa"
+archive(native, plugin) = "tetrode_ephys.cmxs"
+exists_if = "tetrode_ephys.cma"
 # OASIS_STOP
 

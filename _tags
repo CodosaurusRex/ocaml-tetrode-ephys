@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: bdbfc6a2db86174d60d58fd32bbb2af4)
+# DO NOT EDIT (digest: 34fa0aef94e0f33381c1d318da1ff4b6)
 # Ignore VCS directories, you can use the same kind of rule outside 
 # OASIS_START/STOP if you want to exclude directories that contains 
 # useless stuff for the build process
@@ -13,6 +13,8 @@
 ".git": not_hygienic
 "_darcs": -traverse
 "_darcs": not_hygienic
-# Library tetrode-ephys
-"src/tetrode-ephys.cmxs": use_tetrode-ephys
+# Library tetrode_ephys
+"src/tetrode_ephys.cmxs": use_tetrode_ephys
+<src/*.ml{,i}>: pkg_yojson
+<src/*.ml{,i}>: pkg_circstat
 # OASIS_STOP
